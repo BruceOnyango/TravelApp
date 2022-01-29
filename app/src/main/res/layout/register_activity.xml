@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/tool_bar"
+       android:layout_width="match_parent"
+       android:layout_height="75dp"
+       android:layout_alignParentTop="true"
+       android:background="#000000"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+       app:titleTextAppearance="@style/app_title" />
+
+   <LinearLayout
+       android:layout_below="@+id/tool_bar"
+       android:id="@+id/first_half"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:background="@drawable/layoutcolor"
+       android:orientation="vertical">
+      <TextView
+          android:id="@+id/Register"
+          android:layout_width="200dp"
+          android:layout_height="300dp"
+          android:text="TRAVEL"
+          android:textColor="@color/white"
+          android:fontFamily="serif"
+          android:textSize="100dp"/>
+
+      <ImageView
+          android:id="@+id/circlepng"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginLeft="300dp"
+          android:layout_marginTop="-250dp"
+          android:background="@drawable/logo" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@id/first_half"
+       android:background="@drawable/travel_edit"
+       android:orientation="vertical">
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="377dp"
+       android:layout_height="403dp"
+       android:layout_below="@id/first_half"
+       android:layout_centerInParent="true"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="-55dp"
+
+       android:layout_marginEnd="10dp"
+       android:layout_marginBottom="50dp"
+       android:background="@drawable/layoutstyle"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_margin="16dp"
+          android:fontFamily="serif"
+          android:text="Register"
+          android:textColor="#000000"
+          android:textSize="32sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/usernameField"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="8dp"
+          android:background="@drawable/layoutstyle"
+          android:hint="username"
+          android:padding="16dp"
+          android:textColor="#000"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/emailField"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="8dp"
+          android:background="@drawable/layoutstyle"
+          android:hint="email"
+          android:inputType="textEmailAddress"
+
+          android:padding="16dp"
+          android:textColor="#000"
+          android:textColorHint="@color/black" />
+
+      <EditText
+          android:id="@+id/passwordField"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="8dp"
+          android:background="@drawable/layoutstyle"
+          android:hint="password"
+          android:inputType="textPassword"
+          android:padding="16dp"
+          android:textColor="#000"
+          android:textColorHint="@color/black" />
+
+      <Button
+          android:id="@+id/registerBtn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+
+          android:text="Register"
+          android:textColor="#fff" />
+
+      <TextView
+          android:id="@+id/loginTxtView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_margin="16dp"
+          android:text="already registered ? Login"
+          android:textColor="#ffffff"
+          android:textSize="16sp"
+          android:textStyle="bold" />
+
+   </LinearLayout>
+
+
+
+</RelativeLayout>

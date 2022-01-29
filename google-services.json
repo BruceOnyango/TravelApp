@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319870620162",
+    "firebase_url": "https://travelapp-ec26e-default-rtdb.firebaseio.com",
+    "project_id": "travelapp-ec26e",
+    "storage_bucket": "travelapp-ec26e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319870620162:android:52d0c41602de9a4f454d1b",
+        "android_client_info": {
+          "package_name": "com.bruce.dice.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319870620162-vec5k131ids9gnupkul7m3rku10pr50n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFlYUtIbS3fN7egFZcol-WoVOfnUnfiOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319870620162-vec5k131ids9gnupkul7m3rku10pr50n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

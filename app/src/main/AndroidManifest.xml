@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bruce.dice.travelapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".FirebaseHandler"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelApp">
+        <activity android:name=".ProfileActivity"
+            android:label="@string/set_profile"
+            ></activity>
+        <activity android:name=".SinglePostActivity" />
+        <activity android:name=".LoginActivity"
+
+            android:label="@string/app_name"/>
+        <activity android:name=".PostActivity"
+            android:label="@string/add_post"/>
+
+        <activity android:name=".KQActivity"
+            android:label="Kenya Airways"/>
+        <activity android:name=".Fly540Activity"
+            android:label="Fly540"/>
+
+        <activity android:name=".RegisterActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

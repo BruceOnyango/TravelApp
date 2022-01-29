@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/action_button_style.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_abstract_background.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_menu.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/layoutcolor.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/layoutstyle.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_fly540.xml" value="0.25" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_jumbojet.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_kq.xml" value="0.33" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_navigation.xml" value="0.11" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_post.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_profile.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_single_post.xml" value="0.18" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/app_bar_navigation.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/card_items.xml" value="0.5" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/content_navigation.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/nav_header_navigation.xml" value="0.159375" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/register_activity.xml" value="0.18" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/menu_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/menu_main.xml" value="0.1859375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

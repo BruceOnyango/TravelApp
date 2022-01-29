@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+
+        >
+        <item
+            android:id="@+id/kq"
+            android:title="KQ" />
+
+        <item
+            android:id="@+id/jumbojet"
+            android:title="JUMBO JET" />
+
+        <item
+            android:id="@+id/fly540"
+            android:title="FLY540" />
+    </group>
+
+
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/random_reviews"
+
+            android:title="RANDOM REVIEWS" />
+        <item
+            android:id="@+id/travel_spaces"
+
+            android:title="TOP 5 TRAVEL SPACES" />
+        <item
+            android:id="@+id/travel_journal"
+
+            android:title="MY TRAVEL JOURNAL" />
+    </group>
+
+</menu>
