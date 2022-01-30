@@ -20,6 +20,9 @@
         <activity android:name=".LoginActivity"
 
             android:label="@string/app_name"/>
+        <activity android:name=".NavigationActivity"
+
+            android:label="@string/app_name"/>
         <activity android:name=".PostActivity"
             android:label="@string/add_post"/>
 

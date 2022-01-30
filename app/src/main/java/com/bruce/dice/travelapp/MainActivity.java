@@ -73,10 +73,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //set up the navigation drawer
 
-        mDrawerLayout  = findViewById(R.id.drawer_layout);
-       ActionBarDrawerToggle drawerToh  = new ActionBarDrawerToggle(this, mDrawerLayout,toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        mDrawerLayout.addDrawerListener(actionBarDrawerToggle);
-        actionBarDrawerToggle.syncState();
+
 
         comment_alert = new AlertDialog.Builder(this);
         inflater = this.getLayoutInflater();
@@ -106,9 +103,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(loginIntent);
         }
         //set up the navigation drawer
-
+        mDrawerLayout  = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle drawertoggle  = new ActionBarDrawerToggle(this, mDrawerLayout,toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        mDrawerLayout.addDrawerListener(drawertoggle);
+        drawertoggle.syncState();
         //make the navigation drawer icon always appear on the action bar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //set up the navigation view to listen for the menu item selection
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -310,10 +310,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-
-
-
+    public void navigation(View view) {
+        Intent navigation = new Intent(MainActivity.this,NavigationActivity.class);
+        startActivity(navigation);
+    }
 
 
     public class AtticViewHolder extends RecyclerView.ViewHolder{

@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
 
-        android:text="krishen.chohan@strathmore.edu"
+        android:text="bruce.onyango@strathmore.edu"
         android:textStyle="bold"/>
 
 </LinearLayout>
