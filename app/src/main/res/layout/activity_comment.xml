@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:padding="10dp"
+        app:titleTextAppearance="@style/app_title" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_below="@id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#000000"
+            tools:context=".CommentActivity">
+            <RelativeLayout
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/black"
+                >
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+
+                    android:background="@drawable/circular_bordershape">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:cardCornerRadius="115dp">
+                        <ImageView
+                            android:id="@+id/singleImageview"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/woodl"
+                            android:layout_height="match_parent"/>
+
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/uid"
+                    android:layout_toRightOf="@+id/relativeLayout1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="where"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:id="@+id/indvcomment"
+                    android:gravity="center_horizontal"
+                    android:layout_toRightOf="@+id/uid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="where"
+                    android:textColor="@color/white"
+                    />
+            </RelativeLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/post_comment_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_margin="5dp"
+                android:textColor="#ffffff"
+
+                />
+            <include
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/content_main" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

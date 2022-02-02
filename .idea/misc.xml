@@ -4,27 +4,38 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/action_button_style.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/add_icon.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/circular_bordershape.xml" value="0.1234375" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_abstract_background.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_menu.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/layoutcolor.xml" value="0.1" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/layoutstyle.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_camera.xml" value="0.22" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_comment.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_fly540.xml" value="0.25" />
-        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_jumbojet.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_jumbojet.xml" value="0.25" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_kq.xml" value="0.33" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.19595645412130638" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_navigation.xml" value="0.11" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_persoanl.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_personal.xml" value="0.18" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_post.xml" value="0.1" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_profile.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_single_post.xml" value="0.18" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_smartreply.xml" value="0.33" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/app_bar_navigation.xml" value="0.18645833333333334" />
-        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/card_items.xml" value="0.5" />
-        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/card_items.xml" value="0.20419847328244276" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/comment_pop.xml" value="0.12" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/content_main.xml" value="0.14" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/content_navigation.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/nav_header_navigation.xml" value="0.159375" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/layout/register_activity.xml" value="0.18" />
-        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/menu_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.22" />
+        <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/menu_drawer.xml" value="0.25" />
         <entry key="..\:/Users/bruce/AndroidStudioProjects/TravelApp/app/src/main/res/menu/menu_main.xml" value="0.1859375" />
       </map>
     </option>

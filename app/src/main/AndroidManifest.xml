@@ -4,6 +4,14 @@
     package="com.bruce.dice.travelapp">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name = "android.permission.VIBRATE" />
+    <uses-permission android:name = "android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 
     <application
         android:name=".FirebaseHandler"
@@ -28,13 +36,26 @@
 
         <activity android:name=".KQActivity"
             android:label="Kenya Airways"/>
+        <activity android:name=".JumboJetActivity"
+            android:label="Kenya Airways"/>
         <activity android:name=".Fly540Activity"
             android:label="Fly540"/>
+        <activity android:name=".CameraActivity"/>
+        <activity android:name=".NotificationActivity"/>
+        <activity android:name=".ReplyActivity"/>
+        <activity android:name=".PersonalActivity"/>
 
-        <activity android:name=".RegisterActivity"
+        <service
+            android:name = ".NotifyService"
+            android:enabled = "true"
+            android:exported = "true" >
+        </service>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".CommentActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".RegisterActivity"
             android:label="@string/app_name"
             android:exported="true">
             <intent-filter>

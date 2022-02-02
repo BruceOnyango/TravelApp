@@ -22,7 +22,7 @@ import com.squareup.picasso.Picasso;
 
 public class SinglePostActivity extends AppCompatActivity {
     private ImageView singleImage;
-    private TextView singleTitle, singleDesc;
+    private TextView singleTitle, singleDesc, singleComment;
     String post_key = null;
     private DatabaseReference mDatabase;
     private Button deleteBtn;
@@ -33,9 +33,11 @@ public class SinglePostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_post);
 
+
         singleImage = findViewById(R.id.singleImageview);
         singleTitle = findViewById(R.id.singleTitle);
         singleDesc = findViewById(R.id.singleDesc);
+        singleComment = findViewById(R.id.singleComment);
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Posts");
         post_key = getIntent().getExtras().getString("PostID");
@@ -58,10 +60,10 @@ public class SinglePostActivity extends AppCompatActivity {
                 String post_desc = (String) dataSnapshot.child("desc").getValue();
                 String post_image = (String) dataSnapshot.child("postImage").getValue();
                 String post_uid = (String) dataSnapshot.child("uid").getValue();
-                String post_comment = (String) dataSnapshot.child("post_comment").getValue();
+                String post_comment = (String) dataSnapshot.child("comment").getValue();
 
                 singleTitle.setText(post_title);
-               // singleComment.setText(post_comment);
+                singleComment.setText(post_comment);
                 singleDesc.setText(post_desc);
                 Picasso.with(SinglePostActivity.this).load(post_image).into(singleImage);
                 if (mAuth.getCurrentUser().getUid().equals(post_uid)){

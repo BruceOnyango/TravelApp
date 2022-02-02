@@ -25,7 +25,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Club Strawberry Magrarita"
+        android:text="Jumbo Jet"
         android:contentDescription="pasta"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +48,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BOOK FLIGHT" />
+        android:text="BOOK FLIGHT"
+        android:onClick="book"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

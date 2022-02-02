@@ -48,6 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BOOK FLIGHT" />
+        android:text="BOOK FLIGHT"
+        android:onClick="book"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

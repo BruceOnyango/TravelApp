@@ -13,32 +13,11 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/profile_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/bruce"
-        app:civ_border_width="2dp"
-        app:civ_border_color="#FFFFFF"
-        />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Bruce Onyango"
-        android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
 
-        android:text="bruce.onyango@strathmore.edu"
-        android:textStyle="bold"/>
+
+
 
 </LinearLayout>

@@ -29,13 +29,23 @@
         app:navigationIcon="@drawable/ic_menu"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:titleTextAppearance="@style/app_title"
-        tools:ignore="OnClick" />
+        tools:ignore="OnClick">
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
 
     <include
+        android:id="@+id/content_main"
         android:layout_below="@+id/tool_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         layout="@layout/content_main" />
+
+
+
+
 
 </RelativeLayout>
     <com.google.android.material.navigation.NavigationView
@@ -45,4 +55,7 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header_navigation"
         app:menu="@menu/menu_drawer" />
+
+
+
 </androidx.drawerlayout.widget.DrawerLayout>

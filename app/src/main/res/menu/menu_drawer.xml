@@ -2,10 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
-
+    <group android:id="@+id/person_info"
+        android:checkableBehavior="none"/>
     <group android:checkableBehavior="single"
         android:id="@+id/group1"
+
+        >
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+    </group>
+
+<group android:id="@+id/airlines"
+    android:checkableBehavior="none"/>
+    <item android:id="@+id/flights"
+        android:title="Airlines"
+        android:icon="@drawable/ic_baseline_flight_takeoff_24"
+        />
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2"
 
         >
         <item
@@ -20,22 +37,19 @@
             android:id="@+id/fly540"
             android:title="FLY540" />
     </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3"
 
 
-
-    <group android:checkableBehavior="none">
+        >
         <item
-            android:id="@+id/random_reviews"
+            android:id="@+id/reminder"
+            android:title="Set Reminder" />
 
-            android:title="RANDOM REVIEWS" />
-        <item
-            android:id="@+id/travel_spaces"
-
-            android:title="TOP 5 TRAVEL SPACES" />
-        <item
-            android:id="@+id/travel_journal"
-
-            android:title="MY TRAVEL JOURNAL" />
     </group>
+
+
+
+
 
 </menu>

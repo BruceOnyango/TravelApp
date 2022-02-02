@@ -2,10 +2,10 @@ package com.bruce.dice.travelapp;
 
 public class Attic {
     //declare the variable
-    private String title, desc, postImage, displayName, profilePhoto, time, date;
+    private String title, desc, postImage, displayName, profilePhoto, time, date/*,comment*/;
     //create a constructor
     public Attic(String title, String desc, String postImage, String displayName,
-                 String profilePhoto, String time, String date) {
+                 String profilePhoto, String time, String date/*,String comment*/) {
         this.title = title;
         this.desc = desc;
         this.postImage=postImage;
@@ -13,9 +13,16 @@ public class Attic {
         this.profilePhoto=profilePhoto;
         this.time=time;
         this.date=date;
+       // this.comment=comment;
+
 
 
     }
+
+
+
+
+
     public void setPostImage(String postImage){
         this.postImage=postImage;
     }
@@ -37,7 +44,7 @@ public class Attic {
     public void setDate(String date){
         this.date=date;
     }
-    //public void setPost_comment(String post_comment){this.post_comment=post_comment;}
+
 
     //getters
     public String getDisplayName() {
@@ -62,5 +69,6 @@ public class Attic {
     public String getDate(){
         return date;
     }
+
 
 }

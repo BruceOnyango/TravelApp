@@ -8,13 +8,27 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
     <item
+        android:id="@+id/enableCamera"
+        android:icon="@drawable/ic_baseline_camera_24"
+        app:showAsAction="always"
+        android:title="Add"/>
+    <item
+        android:id="@+id/smartreply"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="always"
+        android:title="Add"/>
+    <item
         android:id="@+id/action_add"
         android:icon="@drawable/add_icon"
         app:showAsAction="always"
         android:title="Add"/>
+
+
     <item
         android:id="@+id/logout"
         android:orderInCategory="100"
         android:title="Logout"
         app:showAsAction="never" />
+
+
 </menu>
